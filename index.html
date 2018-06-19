@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi app</title>
+
+  <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/util.css">
+
+      <!-- Favicon -->
+      <link rel="shorcout icon" href="images/icons/favicon.png">
+
+      <!-- Hoja de Estilo CSS -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <!-- Hoja de Estilo CSS SweetAlert2 -->
+      <link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
+
+      <!-- Hoja de Estilo CSS Animate -->
+      <link rel="stylesheet" href="css/animate.css">
+
+      <!-- Estilo de Font -->
+      <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
+      <!-- Javascript de Firebase Realtime Database -->
+      <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+        <!-- Javascript de SweetAlert2 -->
+        <script src="js/sweetalert2.js"></script>
+
+        <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+        <script src="https://unpkg.com/promise-polyfill@7.1.0/dist/promise.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="divLogin" class="col-xs-12 col-sm-4">
+                <div id="centrar" class="align-middle">
+                    <div class="container">
+                        <img  src="img/logo_create.png">
+                        <h3>Iniciar Sesión</h3>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="txtEmail" placeholder="Correo Electronico" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="txtPassword" placeholder="Contraseña" />
+                        </div>
+                        <label>Olvidaste tu contraseña?</label>
+                        <button class="btna btna-primary btn-block" id="btnLogin">Login</button>
+                        <button  class="btn btn-light" id="login"> <img align=left src="img/icon-google.png"> Inicia con Google 
+                        </button>
+                  
+                    
+                        <p id="footer">2018 Create-ti</p>
+                    </div>
+                </div>
+            </div>
+            <div id="divDerecha" class="d-none d-sm-block col-8 derecha">
+                <div id="frase">
+                   <h1>"Un emprendedor ve oportunidades</h1>
+                   <h1>donde otros</h1>
+                   <h1>solo ven problemas"</h1> 
+                </div>
+                <img src="img/movil2.png" id="imgMovil" class="img-fluid animated bounceIn">
+            </div>
+        </div>
+    </div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+
+</script>
+
+<script src="js/app.js"></script> 
+</body>
+</html>

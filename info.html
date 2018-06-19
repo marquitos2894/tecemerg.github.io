@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi app</title>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyClGVIAR2lig5ILpQwQmWWO0eBSfqi0Ycg",
+    authDomain: "match-17d82.firebaseapp.com",
+    databaseURL: "https://match-17d82.firebaseio.com",
+    projectId: "match-17d82",
+    storageBucket: "match-17d82.appspot.com",
+    messagingSenderId: "159489925626"
+  };
+  firebase.initializeApp(config);
+</script>
+  
+<script src="js/info.js"></script> 
+
+
+
+</head>
+<body>
+  <!-- Hoja de Estilo CSS -->
+      <link rel="stylesheet" type="text/css" href="css/stylecdr.css">
+
+<nav class="nav">
+
+
+  <button class="btn btn-danger" onclick="CerrarSesion()" >CerrarSesion</button>
+  <a class="nav-link disabled" href="#">Disabled</a>
+</nav>
+
+
+<center><h1>Compañeros del Aula - Tecnologias emergentes</h1></center>
+
+ <center> <div id="view"></div></center>
+
+ 
+
+
+
+
+
+</body>
+</html>
